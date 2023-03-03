@@ -40,7 +40,7 @@ test('Snapshot', () => {
     console.log( wrapper.vm.$options.data().fourCharacters)
 
     let lap = wrapper.findAll('li').text();
-    console.log(lap[4])
+    expect(lap).toBe('Albedo')
     
   })
 
