@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container p">
       <hr>
 <!--Scoreand Rounds Data-->
     <div class="row">
